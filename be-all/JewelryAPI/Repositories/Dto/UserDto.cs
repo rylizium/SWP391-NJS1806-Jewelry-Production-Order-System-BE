@@ -1,6 +1,6 @@
 ﻿namespace Repositories.Dto
 {
-    public class DetailUser
+    public class UserDto
     {
         public string Uid { get; set; } = null!;
 

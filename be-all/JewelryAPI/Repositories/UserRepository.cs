@@ -8,13 +8,13 @@ namespace Repositories
     {
         private JeweleryOrderProductionContext? _context = null;
 
-        public List<DetailUser> GetAllUsers()
+        public List<UserDto> GetAllUsers()
         {
             _context = new JeweleryOrderProductionContext();
             var detailUserList = from u in _context.Users
                                  join r in _context.Roles
                                  on u.RoleId equals r.RoleId
-                                 select new DetailUser()
+                                 select new UserDto()
                                  {
                                      Uid = u.Uid,
                                      Email = u.Email,
@@ -26,7 +26,7 @@ namespace Repositories
 
             return detailUserList.ToList();
         }
-        public List<Customer> GetCustomers()
+        public List<CustomerDto> GetCustomers()
         {
             _context = new JeweleryOrderProductionContext();
             var customerList = from u in _context.Users
@@ -35,7 +35,7 @@ namespace Repositories
                                join d in _context.CustomerDetails
                                on u.Uid equals d.Uid
                                where u.RoleId == 5
-                               select new Customer()
+                               select new CustomerDto()
                                {
                                    Uid = u.Uid,
                                    CustomerId = d.CustomerId,
@@ -53,13 +53,13 @@ namespace Repositories
                                };
             return customerList.ToList();
         }
-        public DetailUser? GetDetailUser(string id)
+        public UserDto? GetDetailUser(string id)
         {
             _context = new JeweleryOrderProductionContext();
             var detailUser = (from u in _context.Users
                               join r in _context.Roles
                               on u.RoleId equals r.RoleId
-                              select new DetailUser()
+                              select new UserDto()
                               {
                                   Uid = u.Uid,
                                   Email = u.Email,
@@ -71,14 +71,14 @@ namespace Repositories
 
             return detailUser;
         }
-        public List<DetailUser> GetAllUsersByRole(int roleId, int pageNumber, int pageSize)
+        public List<UserDto> GetAllUsersByRole(int roleId, int pageNumber, int pageSize)
         {
             _context = new JeweleryOrderProductionContext();
             var detailUserList = from u in _context.Users
                                  join r in _context.Roles
                                  on u.RoleId equals r.RoleId
                                  where u.RoleId == roleId
-                                 select new DetailUser()
+                                 select new UserDto()
                                  {
                                      Uid = u.Uid,
                                      Email = u.Email,
@@ -106,7 +106,7 @@ namespace Repositories
             return user;
         }
 
-        public User? UpdateUser(string id, DetailUser user)
+        public User? UpdateUser(string id, UserDto user)
         {
             _context = new JeweleryOrderProductionContext();
             User? oUser = GetUser(id);

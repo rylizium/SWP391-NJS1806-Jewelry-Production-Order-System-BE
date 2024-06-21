@@ -1,0 +1,16 @@
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/bin/Debug/net8.0/Services.deps.json
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/bin/Debug/net8.0/Services.dll
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/bin/Debug/net8.0/Services.pdb
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/bin/Debug/net8.0/Repositories.dll
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.sourcelink.json
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.dll
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/Services.pdb
+/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/Debug/net8.0/ref/Services.dll

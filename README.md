@@ -1,8 +1,6 @@
-Creating a README file for your ASP.NET Core Web API project is essential for providing documentation and guidance to users and collaborators. Here's a template you can use as a starting point:
 
----
 
-# Project Name
+# Jewelry Production Order - ASP.NET CORE WEB API Back End
 
 Brief description or overview of your ASP.NET Core Web API project.
 

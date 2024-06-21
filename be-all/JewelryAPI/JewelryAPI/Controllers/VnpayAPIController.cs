@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Web;
 using Microsoft.AspNetCore.Cors;
-using Repositories.CustomObjects;
 using Services;
 using Repositories;
+using Repositories.Dto;
 
 namespace JewelryAPI.Controllers
 {

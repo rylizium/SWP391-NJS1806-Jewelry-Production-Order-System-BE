@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Repositories;
-using Repositories.CustomObjects;
+using Repositories.Dto;
 using Repositories.Models;
 
 namespace Services

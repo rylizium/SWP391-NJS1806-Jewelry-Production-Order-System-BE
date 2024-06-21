@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using Repositories.CustomObjects;
+using Repositories.Dto;
 using Repositories.Models;
 using Services;
 

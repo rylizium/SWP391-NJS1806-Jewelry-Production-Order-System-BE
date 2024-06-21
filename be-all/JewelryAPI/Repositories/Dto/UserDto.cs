@@ -1,4 +1,4 @@
-﻿namespace Repositories.CustomObjects
+﻿namespace Repositories.Dto
 {
     public class DetailUser
     {
@@ -12,7 +12,7 @@
 
         public string LastName { get; set; } = null!;
         //RoleId
-        public string RoleName { get; set; }
-        
+        public string? RoleName { get; set; }
+
     }
 }

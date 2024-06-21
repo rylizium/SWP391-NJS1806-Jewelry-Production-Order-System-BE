@@ -1,4 +1,4 @@
-﻿namespace Repositories.CustomObjects
+﻿namespace Repositories.Dto
 {
     public class ViewStock
     {

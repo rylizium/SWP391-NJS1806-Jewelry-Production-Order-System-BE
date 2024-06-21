@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj": {}
+    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj": {}
   },
   "projects": {
-    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj": {
+    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj",
+        "projectUniqueName": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj",
         "projectName": "JewelryAPI",
-        "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj",
+        "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/JewelryAPI/JewelryAPI.csproj",
         "packagesPath": "/Users/ryliz/.nuget/packages/",
-        "outputPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/JewelryAPI/obj/",
+        "outputPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/JewelryAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ryliz/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/Services.csproj": {
-                "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/Services.csproj"
+              "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/Services.csproj": {
+                "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/Services.csproj"
               }
             }
           }
@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -70,14 +75,14 @@
         }
       }
     },
-    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/Repositories.csproj": {
+    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/Repositories.csproj",
+        "projectUniqueName": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/Repositories.csproj",
+        "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/Repositories.csproj",
         "packagesPath": "/Users/ryliz/.nuget/packages/",
-        "outputPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/obj/",
+        "outputPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ryliz/.nuget/NuGet/NuGet.Config"
@@ -98,12 +103,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -153,14 +167,14 @@
         }
       }
     },
-    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/Services.csproj": {
+    "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/Services.csproj",
+        "projectUniqueName": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/Services.csproj",
         "projectName": "Services",
-        "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/Services.csproj",
+        "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/Services.csproj",
         "packagesPath": "/Users/ryliz/.nuget/packages/",
-        "outputPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/obj/",
+        "outputPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ryliz/.nuget/NuGet/NuGet.Config"
@@ -175,8 +189,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/Repositories.csproj": {
-                "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/Repositories.csproj"
+              "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/Repositories.csproj": {
+                "projectPath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/Repositories.csproj"
               }
             }
           }
@@ -185,6 +199,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

@@ -1,4 +1,4 @@
-﻿using Repositories.CustomObjects;
+﻿using Repositories.Dto;
 using Repositories.Models;
 
 namespace Repositories

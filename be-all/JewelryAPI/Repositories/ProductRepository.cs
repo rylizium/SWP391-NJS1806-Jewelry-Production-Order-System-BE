@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
-using Repositories.CustomObjects;
+using Repositories.Dto;
 using Repositories.Models;
 using Repositories.QueryObjects;
 using System;

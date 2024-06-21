@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XP0OvX9pi3SG54S9nIXCyNAhvrnxyM0D6Sv2VRDx/+jXrBiwhenCr8z4AB+uw3u0M6B/YaK12Xn5Os7zMFYVTg==",
+  "dgSpecHash": "iubeTzo/6vX3THAcM98bGvWIO2BqPwCm1jWtWiVANgLRlT0Q1eM4Ikxldd2GuVJis42e3a9VAROiLUJvlS07CA==",
   "success": true,
-  "projectFilePath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Repositories/Repositories.csproj",
+  "projectFilePath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Repositories/Repositories.csproj",
   "expectedPackageFiles": [
+    "/Users/ryliz/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/ryliz/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/ryliz/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/ryliz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

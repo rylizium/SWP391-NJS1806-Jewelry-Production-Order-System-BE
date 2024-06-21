@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ojwv9cbf+i+PtaRUMvI0hewbgMhE6QeooUE1tiUm9aOVoObVYkOVdmxcKkTzyamfD1ksPQ8fXtVGVpGuBXZ+fA==",
+  "dgSpecHash": "lb/ABcFx5JVok/5aJr690GKzB25zrzobPUYypQF1K17wpgnfyVvAoI9r8IK/oRLqhDc0pNLb0UFs0UrRJhxO9Q==",
   "success": true,
-  "projectFilePath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System/backend/be-all/JewelryAPI/Services/Services.csproj",
+  "projectFilePath": "/Users/ryliz/Homework/University/Semester 5/SWP391/SWP391-NJS1806-Jewelry-Production-Order-System-BE/be-all/JewelryAPI/Services/Services.csproj",
   "expectedPackageFiles": [
+    "/Users/ryliz/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/ryliz/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/ryliz/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/ryliz/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

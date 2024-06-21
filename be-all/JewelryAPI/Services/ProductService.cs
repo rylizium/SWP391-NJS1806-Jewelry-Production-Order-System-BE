@@ -1,7 +1,7 @@
-﻿using Repositories.CustomObjects;
-using Repositories;
+﻿using Repositories;
 using Repositories.Models;
 using Repositories.QueryObjects;
+using Repositories.Dto;
 
 namespace Services
 {

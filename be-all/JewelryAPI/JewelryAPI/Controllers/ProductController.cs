@@ -19,7 +19,7 @@ namespace JewelryAPI.Controllers
         public IActionResult GetAllProduct([FromQuery] ProductQueryObject productQuery)
         {
             
-            List<ViewProduct> products = pServices.GetAllProduct(productQuery);
+            List<ProductDto> products = pServices.GetAllProduct(productQuery);
             return Ok(products);
         }
 
@@ -27,7 +27,7 @@ namespace JewelryAPI.Controllers
         public IActionResult GetAllActiveProduct()
         {
             
-            List<ViewProduct> products = pServices.GetAllActiveProduct();
+            List<ProductDto> products = pServices.GetAllActiveProduct();
             return Ok(products);
         }
 
@@ -37,7 +37,7 @@ namespace JewelryAPI.Controllers
             try
             {
                 
-                ViewProduct? product = pServices.GetProductById(id);
+                ProductDto? product = pServices.GetProductById(id);
                 if (product == null)
                 {
                     return NotFound();

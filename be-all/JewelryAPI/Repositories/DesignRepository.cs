@@ -1,29 +1,27 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
-using SWP3.Interface;
-
-using SWP3.Models;
+using Repositories.Models;
 using System.ComponentModel.Design;
 
 
-namespace SWP.Repository
+namespace Repositories
 {
-    public class DesignRepository : IDesign
+    public class DesignRepository
     {
-       private JeweleryOrderProductionContext _dbContext;
+       private JeweleryOrderProductionContext _context;
        private readonly IMapper _mapper;
 
-        public DesignRepository(JeweleryOrderProductionContext dbContext, IMapper mapper)
+        public DesignRepository(JeweleryOrderProductionContext context, IMapper mapper)
         {
-            _dbContext = dbContext;
+            _context = context;
             _mapper = mapper;
         }
 
         public ICollection<Design> GetDesigns()
         {
             
-            var designs = _dbContext.Designs.ToList();
+            var designs = _context.Designs.ToList();
 
             return designs;
         }
@@ -31,19 +29,19 @@ namespace SWP.Repository
         public ICollection<Design> GetDesignsByCusId(int custId)
        
         {
-         return _dbContext.Designs.Where(d => d.Order.CustomerId == custId).ToList();
+         return _context.Designs.Where(d => d.Order.CustomerId == custId).ToList();
                             
         }
 
         public bool UpdateDesign(Design design)
         {
-             _dbContext.Designs.Update(design);
+             _context.Designs.Update(design);
             return Save();
         }
 
         public bool Save()
         {
-            var saved = _dbContext.SaveChanges();
+            var saved = _context.SaveChanges();
             return saved >= 0 ? true : false;
         }
 

@@ -1,6 +1,7 @@
 
 using Services;
 using JewelryAPI.Controllers;
+using Repositories.Helper;
 
 namespace JewelryAPI
 {
@@ -15,10 +16,12 @@ namespace JewelryAPI
             builder.Services.AddScoped<ShipmentService>();
             builder.Services.AddScoped<UserService>();
             builder.Services.AddScoped<ProductionTrackingService>();
+            builder.Services.AddScoped<PaymentStatusService>();
             //builder.Services.AddScoped<PayLib>();
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddAutoMapper(typeof(Mappers));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();   

@@ -1,6 +1,5 @@
 ﻿namespace Repositories.Dto
 {
-
     public class ProductDto
     {
         public int ProductId { get; set; }

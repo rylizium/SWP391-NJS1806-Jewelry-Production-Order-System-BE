@@ -1,6 +1,5 @@
-﻿using Repositories.Models;
-
-namespace SWP3.Dto
+﻿
+namespace Repositories.Dto
 {
     public class OrderFixedItemDto
     {

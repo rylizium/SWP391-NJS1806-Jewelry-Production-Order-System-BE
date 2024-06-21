@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
+using Repositories.Models;
 
-using SWP3.Interface;
-
-using SWP3.Models;
-
-namespace SWP1.Repositories
+namespace Repositories
 {
-    public class OrderFixedItemRepository : IOrderFixedItems
+    public class OrderFixedItemRepository 
     {
         private JeweleryOrderProductionContext _context;
         private readonly IMapper _mapper;
@@ -26,7 +23,7 @@ namespace SWP1.Repositories
             
         }
 
-        public OrderFixedItem GetFixedItemByOrderId(int index)
+        public OrderFixedItem? GetFixedItemByOrderId(int index)
         {
             var orderFixedItem = _context.OrderFixedItems.Where(o => o.OrderId == index).FirstOrDefault();
             return orderFixedItem;
@@ -60,7 +57,7 @@ namespace SWP1.Repositories
             return Save();
         }
 
-        public OrderFixedItem GetFixedItemById(int index)
+        public OrderFixedItem? GetFixedItemById(int index)
         {
             var orderFixedItem = _context.OrderFixedItems.Where(o => o.OrderFixedItemId == index).FirstOrDefault();
             return orderFixedItem;

@@ -52,7 +52,7 @@ namespace JewelryAPI.Controllers
 
         // GET: api/Users/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(string id)
+        public IActionResult GetUser(string id)
         {
             if (iUserService.GetUsers() == null)
             {
@@ -63,13 +63,13 @@ namespace JewelryAPI.Controllers
             {
                 return NotFound();
             }
-            return user;
+            return Ok(user);
         }
 
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(string id, UserDto user)
+        public IActionResult PutUser(string id, UserDto user)
         {
             if (!user.Uid.Equals(id))
             {
@@ -85,7 +85,7 @@ namespace JewelryAPI.Controllers
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public IActionResult PostUser(User user)
         {
             if(iUserService.GetUsers() == null)
             {
@@ -93,12 +93,12 @@ namespace JewelryAPI.Controllers
             }
             iUserService.AddUser(user);
 
-            return user;
+            return Ok(user);
         }
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(string id)
+        public IActionResult DeleteUser(string id)
         {
             
             if (iUserService.GetUsers() == null)

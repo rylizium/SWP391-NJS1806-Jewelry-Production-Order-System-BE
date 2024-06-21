@@ -9,17 +9,17 @@ namespace Services
     {
         ProductRepository _ProductRepo = new ProductRepository();
         OriginalProductTypeRepository _originalProductTypeRepo = new OriginalProductTypeRepository();
-        public List<ViewProduct> GetAllProduct(ProductQueryObject productQuery)
+        public List<ProductDto> GetAllProduct(ProductQueryObject productQuery)
         {
             return _ProductRepo.GetAllProducts(productQuery);
         }
 
-        public List<ViewProduct> GetAllActiveProduct()
+        public List<ProductDto> GetAllActiveProduct()
         {
             return _ProductRepo.GetAllActiveProducts();
         }
 
-        public ViewProduct? GetProductById(int id)
+        public ProductDto? GetProductById(int id)
         {
             return _ProductRepo.GetProductById(id);
         }

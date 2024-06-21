@@ -16,13 +16,13 @@ namespace Repositories
         private JeweleryOrderProductionContext? _context = null;
 
         //GET
-        public List<ViewProduct> GetAllProducts(ProductQueryObject productQuery)
+        public List<ProductDto> GetAllProducts(ProductQueryObject productQuery)
         {
             _context = new JeweleryOrderProductionContext();
             var viewProductsList = from p in _context.Products
                                    join t in _context.ProductTypes
                                    on p.ProductTypeId equals t.ProductTypeId
-                                   select new ViewProduct()
+                                   select new ProductDto()
                                    {
                                        ProductId = p.ProductId,
                                        ProductTypeId = p.ProductTypeId,
@@ -48,7 +48,7 @@ namespace Repositories
 
             var skipNumber = (productQuery.PageNumber - 1) * productQuery.PageSize;
 
-            List<ViewProduct> returnList = viewProductsList.Skip(skipNumber).Take(productQuery.PageSize).ToList();
+            List<ProductDto> returnList = viewProductsList.Skip(skipNumber).Take(productQuery.PageSize).ToList();
             
 
 
@@ -57,14 +57,14 @@ namespace Repositories
             
         }
 
-        public List<ViewProduct> GetAllActiveProducts()
+        public List<ProductDto> GetAllActiveProducts()
         {
             _context = new JeweleryOrderProductionContext();
             var viewProductsList = from p in _context.Products
                                    join t in _context.ProductTypes
                                    on p.ProductTypeId equals t.ProductTypeId
                                    where p.IsActive == true
-                                   select new ViewProduct()
+                                   select new ProductDto()
                                    {
                                        ProductId = p.ProductId,
                                        ProductTypeId = p.ProductTypeId,
@@ -73,21 +73,21 @@ namespace Repositories
                                        ProductDescription = p.ProductDescription,
                                        IsActive = p.IsActive
                                    };
-            List<ViewProduct> returnList = viewProductsList.ToList();
+            List<ProductDto> returnList = viewProductsList.ToList();
 
 
             return returnList;
 
         }
 
-        public ViewProduct? GetProductById(int productId)
+        public ProductDto? GetProductById(int productId)
         {
             _context = new JeweleryOrderProductionContext();
             var viewProduct = (from p in _context.Products
                               join t in _context.ProductTypes
                               on p.ProductTypeId equals t.ProductTypeId
                               where(p.ProductId == productId) 
-                              select new ViewProduct()
+                              select new ProductDto()
                               {
                                   ProductId = p.ProductId,
                                   ProductTypeId = p.ProductTypeId,

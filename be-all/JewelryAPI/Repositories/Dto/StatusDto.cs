@@ -1,4 +1,4 @@
-﻿namespace SWP3.Dto
+﻿namespace Repositories.Dto
 {
     public class StatusDto
     {
